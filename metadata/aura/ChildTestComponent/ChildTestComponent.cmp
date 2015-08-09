@@ -5,7 +5,7 @@
     <aura:handler name="childComponentClicked" action="{!c.handleChildClick}"/>
     
     <div>
-        <button onclick="{!c.childEventFire}">Fire Child event to update parent and child</button>
+        <button onclick="{!c.childEventFire}">Fire Child event to update both parent and child</button>
     </div>
     
     <div>
