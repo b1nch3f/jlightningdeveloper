@@ -7,22 +7,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "metadata/aura/AccountCard/AccountCard.cmp",
-			"settings":
-			{
-				"buffer_size": 627,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "metadata/aura/AccountList/AccountList.cmp",
-			"settings":
-			{
-				"buffer_size": 482,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -60,12 +44,21 @@
 	},
 	"file_history":
 	[
-		"/E/Projects/salesforce/jlightningdeveloper/metadata/aura/AccountCard/AccountCard.cmp",
-		"/E/Projects/salesforce/jlightningdeveloper/metadata/aura/AccountCard/AccountCardStyle.css",
-		"/E/Projects/salesforce/jlightningdeveloper/metadata/aura/AccountCard/AccountCardController.js",
 		"/E/Projects/salesforce/jlightningdeveloper/metadata/aura/AccountList/AccountList.cmp",
-		"/E/Projects/salesforce/jlightningdeveloper/metadata/aura/ShowAccountRelatedCases/ShowAccountRelatedCases.app",
+		"/E/Projects/salesforce/jlightningdeveloper/metadata/aura/AccountCard/AccountCard.cmp",
+		"/E/Projects/salesforce/jlightningdeveloper/metadata/aura/AccountListChild/AccountListChild.cmp",
+		"/E/Projects/salesforce/jlightningdeveloper/metadata/aura/CaseList/CaseListController.js",
+		"/E/Projects/salesforce/jlightningdeveloper/src/classes/AccountListAuraController.cls",
+		"/E/Projects/salesforce/jlightningdeveloper/metadata/aura/CaseList/CaseList.cmp",
+		"/E/Projects/salesforce/jlightningdeveloper/.gitignore",
+		"/E/Projects/salesforce/jlightningdeveloper/README.md",
+		"/E/Projects/salesforce/jlightningdeveloper/src/classes/CaseListAuraController.cls",
+		"/E/Projects/salesforce/jlightningdeveloper/metadata/aura/AccountCard/AccountCardController.js",
+		"/E/Projects/salesforce/jlightningdeveloper/metadata/aura/AccountList/AccountListController.js",
 		"/E/Projects/salesforce/jlightningdeveloper/metadata/aura/ShowAccountRelatedCases/ShowAccountRelatedCasesStyle.css",
+		"/E/Projects/salesforce/jlightningdeveloper/metadata/aura/ShowAccountRelatedCases/ShowAccountRelatedCases.app",
+		"/E/Projects/salesforce/jlightningdeveloper/metadata/aura/AccountCard/AccountCardStyle.css",
+		"/E/Projects/salesforce/jlightningdeveloper/metadata/aura/accountSelectionEvent/accountSelectionEvent.evt",
 		"/C/Users/sangram/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
 		"/C/Users/sangram/AppData/Roaming/Sublime Text 3/Packages/User/mavensmate.sublime-settings"
 	],
@@ -102,69 +95,8 @@
 	"groups":
 	[
 		{
-			"selected": 1,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "metadata/aura/AccountCard/AccountCard.cmp",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 627,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								257,
-								257
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "metadata/aura/AccountList/AccountList.cmp",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 482,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								220,
-								220
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		}
 	],

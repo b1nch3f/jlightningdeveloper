@@ -1,5 +1,6 @@
 <aura:component >
     <aura:attribute name="acc" type="Account"/>
+    <aura:registerEvent name="accountSelect" type="c:accountSelectionEvent"/>
     <div class="card red lighten-1">
         <div class="card-content white-text">
             <span class="card-title">
