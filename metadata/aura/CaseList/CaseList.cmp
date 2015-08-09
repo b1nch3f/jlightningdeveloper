@@ -1,0 +1,43 @@
+<aura:component controller="CaseListAuraController">
+    <aura:handler event="c:accountSelectionEvent" action="{!c.handleAccountSelection}"/>
+    
+    <div class="card red accent-2">
+        <div class="card-content white-text">
+            <span class="card-title">Cases</span>
+        </div>
+    </div>
+    
+    <aura:renderIf isTrue="{!v.cases.length > 0}">
+        <aura:iteration items="{!v.cases}" var="case">
+            <div class="card red lighten-1">
+                <div class="card-content white-text">
+                    <span class="card-title">
+                        #<ui:outputText value="{!case.CaseNumber}"/>
+                    </span>
+                    <p>
+                        <ul class="card-detail">
+                            <li>
+                                <ui:outputText value="{!case.Contact.Name}"/>
+                            </li>
+                            <li>
+                                <ui:outputText value="{!case.Subject}"/>
+                            </li>
+                            <li>
+                                <ui:outputText value="{!case.Priority}"/>
+                            </li>
+                            <li>
+                                <ui:outputText value="{!case.CreatedDate}"/>
+                            </li>
+                            <li>
+                                <ui:outputText value="{!case.Status}"/>
+                            </li>
+                            <li>
+                                <ui:outputText value="{!case.Owner.Name}"/>
+                            </li>
+                        </ul>
+                    </p>
+                </div>
+            </div>  
+        </aura:iteration>
+    </aura:renderIf>
+</aura:component>
